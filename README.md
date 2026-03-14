@@ -1,5 +1,9 @@
 ## Kubernetes Kickstarter
 
+sudo usermod -aG docker ubuntu
+newgrp docker
+docker ps
+sudo systemctl status docker
 ### Kubernetes In One Shot
 
 Learn Kubernetes concepts in a 12 hour tutorial by TrainWithShubham [here](https://youtu.be/W04brGNgxN4?si=KuUs-ajJOE7TfYs-)
